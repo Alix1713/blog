@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+
+<body>
+  <header class="display-flex justify-space-between align-center p-2">
+    <h1>
+      Login
+    </h1>
+  </header>
+  <main class="container container-fluid mt-5">
+<form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4">
+    <label for="email" class="form-label">Email</label>
+    <input type="text" class="form-control" id="validationCustom01" value="email" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Password</label>
+    <input type="text" class="form-control" id="validationCustom02" value="password" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <button>Submit</button>
+    </form>
+    <!-- contents here -->
+    {{{ login }}}
+  </main>
+  <footer>
+      
+  </footer>
+</body>
+
+</html>
